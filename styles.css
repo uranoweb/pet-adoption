@@ -245,6 +245,8 @@ body {
   }
 
   .list-of-pets {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    column-gap: 34px;
     row-gap: 27px;
   }
 
